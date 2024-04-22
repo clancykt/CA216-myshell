@@ -1,0 +1,7 @@
+// MakeFile for compilation
+// name: Katie Clancy
+// student no: 1945224
+// ** acknowledgement of DCU Academic Integrity Policy
+
+myshell: myshell.c utility.c myshell.h
+	gcc -Wall myshell.c utility.c -o myshell
